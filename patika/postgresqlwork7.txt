@@ -1,0 +1,6 @@
+--SELECT title, rating FROM film GROUP BY title, rating;
+--SELECT replacement_cost, COUNT(*) as film_sayisi FROM film GROUP BY replacement_cost HAVING COUNT(*) > 50 ORDER BY replacement_cost;
+--SELECT store_id, COUNT(*) as customer_count FROM customer GROUP BY store_id;
+--SELECT country_id, COUNT(*) as city_count FROM city GROUP BY country_id ORDER BY city_count DESC LIMIT 1;
+
+
